@@ -137,13 +137,16 @@ struct WorkingData {
 
 static const std::vector<Vertex> s_Vertices = {
     {
-        .Position = glm::vec3(0.f, -0.5f, 0.f),
-    },
-    {
         .Position = glm::vec3(0.5f, 0.5f, 0.f),
     },
     {
         .Position = glm::vec3(-0.5f, 0.5f, 0.f),
+    },
+    {
+        .Position = glm::vec3(-0.5f, -0.5f, 0.f),
+    },
+    {
+        .Position = glm::vec3(0.5f, -0.5f, 0.f),
     },
 };
 
@@ -151,6 +154,9 @@ static const std::vector<std::uint16_t> s_Indices = {
     0,
     1,
     2,
+    0,
+    2,
+    3,
 };
 
 static void VertexShader(const void* const* vertexData, const shader_context* context,
@@ -191,6 +197,25 @@ static void ValidateDepthBuffer(const Window& window, image_t** buffer) {
         image_free(*buffer);
         *buffer = image_allocate(width, height, IMAGE_FORMAT_DEPTH);
     }
+}
+
+static glm::mat4 LookAt(const glm::vec3& eye, const glm::vec3& center, const glm::vec3& up) {
+    glm::vec3 forward = glm::normalize(center - eye);
+    glm::vec3 right = glm::normalize(glm::cross(forward, up));
+
+    // we do not need to normalize
+    // forward and right form a right angle
+    glm::vec3 up_corrected = glm::cross(right, forward);
+
+    glm::mat4 rotation(1.f);
+    rotation[0] = glm::vec4(right, 0.f);
+    rotation[1] = glm::vec4(-up_corrected, 0.f);
+    rotation[2] = glm::vec4(forward, 0.f);
+
+    glm::mat4 translation(1.f);
+    translation[3] = glm::vec4(eye, 1.f);
+
+    return glm::inverse(translation * rotation);
 }
 
 int main(int argc, const char** argv) {
@@ -242,44 +267,25 @@ int main(int argc, const char** argv) {
     for (std::size_t i = 0; i < instances.size(); i++) {
         auto& instance = instances[i];
 
-        instance.Color = 0xFF;
-        for (size_t j = 0; j < 3; j++) {
-            uint8_t channel = rand() & 0xFF;
-            instance.Color |= channel << ((j + 1) * 8);
-        }
+        bool negative = i % 2 == 0;
+        std::size_t primaryAxis = i / 2;
 
-        // scale
-        glm::mat4 scale(1.f);
-        for (glm::length_t j = 0; j < 3; j++) {
-            // scale[j, j]
-            scale[j][j] *= 0.25f;
-        }
+        uint8_t colorValue = negative ? 0x7F : 0xFF;
+        instance.Color = (colorValue << ((primaryAxis + 1) * 8)) | 0xFF;
 
-        float theta = std::numbers::pi_v<float> * 2.f * (float)i / (float)instances.size();
+        std::size_t secondaryAxis = (primaryAxis + 1) % 3;
+        std::size_t tertiaryAxis = (primaryAxis + 2) % 3;
+        float axisValue = negative ? -1.f : 1.f;
 
-        // rotation
-        glm::mat4 rotation(1.f);
+        glm::mat4 rotation(0.f);
+        rotation[0][secondaryAxis] = axisValue;
+        rotation[1][tertiaryAxis] = 1.f;
+        rotation[2][primaryAxis] = axisValue;
 
-        // rotating around y
-        // this means that i is now i'cos(theta) - k'sin(theta)
-        // accordingly, k is now i'sin(theta) + k'cos(theta)
+        glm::mat4 scale = glm::scale(glm::mat4(1.f), glm::vec3(0.25f));
+        glm::mat4 translation = glm::translate(glm::mat4(1.f), glm::vec3(0.f, 0.f, -0.5f));
 
-        float cos_theta = glm::cos(theta);
-        float sin_theta = glm::sin(theta);
-
-        rotation[0][0] = cos_theta;
-        rotation[2][0] = -sin_theta;
-        rotation[0][2] = sin_theta;
-        rotation[2][2] = cos_theta;
-
-        // translation
-        glm::mat4 translation(1.f);
-
-        // negative z
-        translation[3][2] = -0.5f;
-
-        glm::mat4 displacement = rotation * translation;
-        instance.Model = scale * displacement;
+        instance.Model = scale * rotation * translation;
     }
 
     const std::vector<vertex_buffer> vbufs = {
@@ -340,16 +346,16 @@ int main(int argc, const char** argv) {
         float sinPhi = glm::sin(phi);
 
         cameraTheta += delta.count() * 0.1f;
-        float cameraDistance = glm::abs(cosTheta) * 5.f;
+        float cameraDistance = 10.f;
 
         glm::vec3 eye = { cosTheta * cosPhi * cameraDistance, sinPhi * cameraDistance,
                           sinTheta * cosPhi * cameraDistance };
 
         static const glm::vec3 center = glm::vec3(0.f);
-        static const glm::vec3 up = glm::vec3(0.f, 1.f, 0.f);
+        static const glm::vec3 up = glm::vec3(0.f, -1.f, 0.f);
 
         uniforms.Projection = glm::perspective(glm::radians(45.f), aspect, 0.1f, 100.f);
-        uniforms.View = glm::lookAt(eye, center, up);
+        uniforms.View = LookAt(eye, center, up);
 
         rast->ClearFramebuffer(&fb, clearValues);
         rast->RenderIndexed(call);
