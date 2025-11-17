@@ -1,2 +1,0 @@
-/usr/bin/ar qc librast_imgui.a CMakeFiles/rast_imgui.dir/vendor/cimgui/cimgui.cpp.o CMakeFiles/rast_imgui.dir/vendor/cimgui/cimgui_impl.cpp.o CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/imgui.cpp.o CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/imgui_draw.cpp.o CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/imgui_demo.cpp.o CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/imgui_widgets.cpp.o CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/imgui_tables.cpp.o CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/backends/imgui_impl_sdl3.cpp.o
-/usr/bin/ranlib librast_imgui.a
