@@ -1,0 +1,6 @@
+[submodule "vendor/rast"]
+	path = vendor/rast
+	url = https://github.com/heyallnorahere/rast.git
+[submodule "vendor/glm"]
+	path = vendor/glm
+	url = https://github.com/g-truc/glm.git

@@ -1,0 +1,152 @@
+[
+{
+  "directory": "/home/nora/src/rast-cpp-test/build",
+  "command": "/usr/bin/clang++ -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/glm -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/rast-cpp-test.dir/src/main.cpp.o -c /home/nora/src/rast-cpp-test/src/main.cpp",
+  "file": "/home/nora/src/rast-cpp-test/src/main.cpp",
+  "output": "CMakeFiles/rast-cpp-test.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang++ -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast_imgui.dir/vendor/cimgui/cimgui.cpp.o -c /home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/cimgui.cpp",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/cimgui.cpp",
+  "output": "vendor/rast/CMakeFiles/rast_imgui.dir/vendor/cimgui/cimgui.cpp.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang++ -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast_imgui.dir/vendor/cimgui/cimgui_impl.cpp.o -c /home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/cimgui_impl.cpp",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/cimgui_impl.cpp",
+  "output": "vendor/rast/CMakeFiles/rast_imgui.dir/vendor/cimgui/cimgui_impl.cpp.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang++ -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/imgui.cpp.o -c /home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/imgui.cpp",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/imgui.cpp",
+  "output": "vendor/rast/CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang++ -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/imgui_draw.cpp.o -c /home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/imgui_draw.cpp",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/imgui_draw.cpp",
+  "output": "vendor/rast/CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang++ -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/imgui_demo.cpp.o -c /home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/imgui_demo.cpp",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/imgui_demo.cpp",
+  "output": "vendor/rast/CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang++ -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/imgui_widgets.cpp.o -c /home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/imgui_widgets.cpp",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/imgui_widgets.cpp",
+  "output": "vendor/rast/CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang++ -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/imgui_tables.cpp.o -c /home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/imgui_tables.cpp",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/imgui_tables.cpp",
+  "output": "vendor/rast/CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang++ -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/backends/imgui_impl_sdl3.cpp.o -c /home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends/imgui_impl_sdl3.cpp",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends/imgui_impl_sdl3.cpp",
+  "output": "vendor/rast/CMakeFiles/rast_imgui.dir/vendor/cimgui/imgui/backends/imgui_impl_sdl3.cpp.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast.dir/src/core/list.c.o -c /home/nora/src/rast-cpp-test/vendor/rast/src/core/list.c",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/src/core/list.c",
+  "output": "vendor/rast/CMakeFiles/rast.dir/src/core/list.c.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast.dir/src/core/mem.c.o -c /home/nora/src/rast-cpp-test/vendor/rast/src/core/mem.c",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/src/core/mem.c",
+  "output": "vendor/rast/CMakeFiles/rast.dir/src/core/mem.c.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast.dir/src/core/semaphore.c.o -c /home/nora/src/rast-cpp-test/vendor/rast/src/core/semaphore.c",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/src/core/semaphore.c",
+  "output": "vendor/rast/CMakeFiles/rast.dir/src/core/semaphore.c.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast.dir/src/core/thread_worker.c.o -c /home/nora/src/rast-cpp-test/vendor/rast/src/core/thread_worker.c",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/src/core/thread_worker.c",
+  "output": "vendor/rast/CMakeFiles/rast.dir/src/core/thread_worker.c.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast.dir/src/core/util.c.o -c /home/nora/src/rast-cpp-test/vendor/rast/src/core/util.c",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/src/core/util.c",
+  "output": "vendor/rast/CMakeFiles/rast.dir/src/core/util.c.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast.dir/src/debug/capture.c.o -c /home/nora/src/rast-cpp-test/vendor/rast/src/debug/capture.c",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/src/debug/capture.c",
+  "output": "vendor/rast/CMakeFiles/rast.dir/src/debug/capture.c.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast.dir/src/debug/diag.c.o -c /home/nora/src/rast-cpp-test/vendor/rast/src/debug/diag.c",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/src/debug/diag.c",
+  "output": "vendor/rast/CMakeFiles/rast.dir/src/debug/diag.c.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast.dir/src/graphics/image.c.o -c /home/nora/src/rast-cpp-test/vendor/rast/src/graphics/image.c",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/src/graphics/image.c",
+  "output": "vendor/rast/CMakeFiles/rast.dir/src/graphics/image.c.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast.dir/src/graphics/imgui.c.o -c /home/nora/src/rast-cpp-test/vendor/rast/src/graphics/imgui.c",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/src/graphics/imgui.c",
+  "output": "vendor/rast/CMakeFiles/rast.dir/src/graphics/imgui.c.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast.dir/src/graphics/rasterizer.c.o -c /home/nora/src/rast-cpp-test/vendor/rast/src/graphics/rasterizer.c",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/src/graphics/rasterizer.c",
+  "output": "vendor/rast/CMakeFiles/rast.dir/src/graphics/rasterizer.c.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast.dir/src/graphics/texture.c.o -c /home/nora/src/rast-cpp-test/vendor/rast/src/graphics/texture.c",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/src/graphics/texture.c",
+  "output": "vendor/rast/CMakeFiles/rast.dir/src/graphics/texture.c.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast.dir/src/graphics/window.c.o -c /home/nora/src/rast-cpp-test/vendor/rast/src/graphics/window.c",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/src/graphics/window.c",
+  "output": "vendor/rast/CMakeFiles/rast.dir/src/graphics/window.c.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast.dir/src/math/mat.c.o -c /home/nora/src/rast-cpp-test/vendor/rast/src/math/mat.c",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/src/math/mat.c",
+  "output": "vendor/rast/CMakeFiles/rast.dir/src/math/mat.c.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/rast.dir/src/math/vec.c.o -c /home/nora/src/rast-cpp-test/vendor/rast/src/math/vec.c",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/src/math/vec.c",
+  "output": "vendor/rast/CMakeFiles/rast.dir/src/math/vec.c.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/rast",
+  "command": "/usr/bin/clang -DCIMGUI_USE_SDL3 -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1 -DIMGUI_IMPL_API=\"extern \\\"C\\\"\" -DIMGUI_USER_CONFIG=\\\"../cimconfig.h\\\" -I/home/nora/src/rast-cpp-test/vendor/rast/src -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui -I/home/nora/src/rast-cpp-test/vendor/rast/vendor/cimgui/imgui/backends -O3 -DNDEBUG -o CMakeFiles/demo.dir/src/main.c.o -c /home/nora/src/rast-cpp-test/vendor/rast/src/main.c",
+  "file": "/home/nora/src/rast-cpp-test/vendor/rast/src/main.c",
+  "output": "vendor/rast/CMakeFiles/demo.dir/src/main.c.o"
+},
+{
+  "directory": "/home/nora/src/rast-cpp-test/build/vendor/glm/glm",
+  "command": "/usr/bin/clang++  -I/home/nora/src/rast-cpp-test/vendor/glm -O3 -DNDEBUG -std=c++17 -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-switch-default -o CMakeFiles/glm.dir/detail/glm.cpp.o -c /home/nora/src/rast-cpp-test/vendor/glm/glm/detail/glm.cpp",
+  "file": "/home/nora/src/rast-cpp-test/vendor/glm/glm/detail/glm.cpp",
+  "output": "vendor/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.o"
+}
+]

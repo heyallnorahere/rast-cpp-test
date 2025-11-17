@@ -1,0 +1,1 @@
+/usr/bin/clang++ -O3 -DNDEBUG CMakeFiles/demo.dir/src/main.c.o -o demo  librast.a -lm librast_imgui.a /usr/lib/libSDL3.so.0.2.22 

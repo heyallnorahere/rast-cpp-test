@@ -1,0 +1,1 @@
+/usr/bin/clang++ -O3 -DNDEBUG "CMakeFiles/rast-cpp-test.dir/src/main.cpp.o" -o rast-cpp-test  vendor/glm/glm/libglm.a vendor/rast/librast.a -lm vendor/rast/librast_imgui.a /usr/lib/libSDL3.so.0.2.22 
